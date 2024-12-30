@@ -5,12 +5,7 @@ namespace DodgeGame{
 public class Player : MonoBehaviour
 {
 
-    [SerializeField] 
-    float xValue = 0.01f;
-    [SerializeField] 
-    float yValue = 0.05f;
-    [SerializeField]
-    float zValue = 0f;
+    [SerializeField] float moveSpeed = 10f;
     
     void Start()
     {
@@ -19,6 +14,12 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+         
+    float xValue = Input.GetAxis("Horizontal") * Time.deltaTime *moveSpeed;
+   
+    float yValue = 0f;
+    
+    float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
         transform.Translate(xValue,yValue,zValue);
     }
 }
