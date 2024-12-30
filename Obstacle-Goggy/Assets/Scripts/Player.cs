@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     
     void Start()
     {
+        PrintInstruction();
         
     }
 
@@ -21,6 +22,14 @@ public class Player : MonoBehaviour
     
     float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
         transform.Translate(xValue,yValue,zValue);
+    }
+
+
+    void PrintInstruction()
+    {
+    Debug.Log("Welcome to the game!!!");
+    Debug.Log("Move using arrow keys or WASD");
+    Debug.Log("Welocme to the game!");
     }
 }
 }
