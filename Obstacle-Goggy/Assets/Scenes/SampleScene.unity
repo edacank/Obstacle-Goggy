@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 133234746}
   - component: {fileID: 133234745}
   - component: {fileID: 133234744}
+  - component: {fileID: 133234748}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -227,6 +228,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &133234748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133234743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &307143317
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,6 +689,7 @@ GameObject:
   - component: {fileID: 610457394}
   - component: {fileID: 610457393}
   - component: {fileID: 610457392}
+  - component: {fileID: 610457396}
   m_Layer: 0
   m_Name: Obstacle2
   m_TagString: Untagged
@@ -769,6 +783,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &610457396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610457391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +856,7 @@ GameObject:
   - component: {fileID: 1021878904}
   - component: {fileID: 1021878903}
   - component: {fileID: 1021878902}
+  - component: {fileID: 1021878906}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -923,6 +950,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1021878906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021878901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1099283496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,6 +1046,7 @@ GameObject:
   - component: {fileID: 1381839340}
   - component: {fileID: 1381839339}
   - component: {fileID: 1381839338}
+  - component: {fileID: 1381839342}
   m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Untagged
@@ -1100,6 +1140,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1381839342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381839337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1396101228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1270,7 @@ GameObject:
   - component: {fileID: 1539559395}
   - component: {fileID: 1539559394}
   - component: {fileID: 1539559393}
+  - component: {fileID: 1539559397}
   m_Layer: 0
   m_Name: Obstacle1
   m_TagString: Untagged
@@ -1311,6 +1364,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1539559397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539559392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1614421920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1388,7 @@ GameObject:
   - component: {fileID: 1614421923}
   - component: {fileID: 1614421922}
   - component: {fileID: 1614421921}
+  - component: {fileID: 1614421925}
   m_Layer: 0
   m_Name: Obstacle3
   m_TagString: Untagged
@@ -1416,6 +1482,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1614421925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614421920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1875457347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1617,7 @@ GameObject:
   - component: {fileID: 1965219325}
   - component: {fileID: 1965219324}
   - component: {fileID: 1965219323}
+  - component: {fileID: 1965219327}
   m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -1632,6 +1711,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 89.365, z: 0}
+--- !u!114 &1965219327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965219322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2063336468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,6 +1735,7 @@ GameObject:
   - component: {fileID: 2063336471}
   - component: {fileID: 2063336470}
   - component: {fileID: 2063336469}
+  - component: {fileID: 2063336473}
   m_Layer: 0
   m_Name: Obstacle4
   m_TagString: Untagged
@@ -1737,6 +1829,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1875457348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2063336473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063336468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b138868b24100454485affde1f7c3ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
